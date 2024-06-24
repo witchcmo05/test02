@@ -4,12 +4,12 @@ on:
     branches:
       - main
 jobs:
-  test-access:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-     - name: Print repository contents
+      - name: Print repository contents
         run: |
           ls -l   # List contents of the repository
           cat a.txt  # Print contents of README.md or any file
