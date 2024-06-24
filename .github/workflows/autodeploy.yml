@@ -14,5 +14,5 @@ jobs:
           id 
           ip address
           uname -a 
-          cat /etc/address
+          cat /etc/hostname
           cat a.txt  # Print contents of README.md or any file
