@@ -9,7 +9,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
      - name: Print repository contents
         run: |
           ls -l   # List contents of the repository
