@@ -1,23 +1,11 @@
 name: Automatic Deployment
-
 on:
   push:
     branches:
-      - master  # Change to your main branch name
-
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Install dependencies (if needed)
-        run: |
-          # Add commands to install any dependencies needed for your scripts
-
-      - name: Execute your scripts
-        run: |
-          # Add commands to execute your scripts that perform deployment or update actions
-
-      # Optionally, you can add more steps such as testing, notifications, etc.
