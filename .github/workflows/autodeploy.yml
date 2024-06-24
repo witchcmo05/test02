@@ -13,5 +13,5 @@ jobs:
         run: |
           ls -l   # List contents of the repository
           id 
-          uname -a
+          ip address
           cat a.txt  # Print contents of README.md or any file
